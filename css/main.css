@@ -36,6 +36,11 @@ list-style-type: none;
  
 }
 
+.ng-scope .navbar-inverse .row{
+
+ali
+
+}
 
 
 .img-responsive {
@@ -96,3 +101,14 @@ p{
 text-align: justify;
 }
 
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+
+}
