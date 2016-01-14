@@ -5,8 +5,38 @@
     
     text-align: center;
     width: 100%;
+
+font-weight: bold;
+color: rgb(240, 240, 240);
  
 }
+
+.ng-scope .navbar-inverse .row  .col-lg-2 li a {
+color: rgb(240, 240, 240);
+/*text-decoration: none;*/
+
+ 
+}
+
+.ng-scope .navbar-inverse .row  .col-lg-2 {
+
+padding-top: 30px;
+ 
+}
+
+.ng-scope .navbar-inverse .row {
+       
+
+color: rgb(240, 240, 240);
+list-style-type: none;
+ 
+}
+.ng-scope .navbar-inverse .row li {
+list-style-type: none;
+ 
+}
+
+
 
 .img-responsive {
 
@@ -52,10 +82,17 @@ position: absolute;
 
 .navbar-inverse .navbar-brand {
 
-color: rgb(240, 240, 240)
+color: rgb(240, 240, 240);
 
 }
 .navbar-inverse .navbar-nav li a{
 font-weight: bold;
-color: rgb(240, 240, 240)
+color: rgb(240, 240, 240);
 }
+
+
+p{
+
+text-align: justify;
+}
+
