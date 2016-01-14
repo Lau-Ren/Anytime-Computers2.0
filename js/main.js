@@ -16,10 +16,11 @@ var anytimeComputers = angular.module('anytimeComputers', [
 anytimeComputers.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
-    .when("/", {templateUrl: "home.html", controller: "PageCtrl"})
+    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
     // Pages
-    .when("/contact", {templateUrl: "contact.html", controller: "PageCtrl"})
-    .when("/location", {templateUrl: "location.html", controller: "PageCtrl"})
+    .when("/pricing", {templateUrl: "partials/pricing.html", controller: "PageCtrl"})
+    .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
+    .when("/location", {templateUrl: "partials/location.html", controller: "PageCtrl"})
     // Blog
     // .when("/blog", {templateUrl: "blog.html", controller: "BlogCtrl"})
     // .when("/blog/post", {templateUrl: "blog_item.html", controller: "BlogCtrl"})
