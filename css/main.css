@@ -53,9 +53,10 @@ ali
 
 .img-responsive {
 
-width: 550px;
-height: 350px;
-padding-top: 10px;
+width: 100%;
+
+overflow: hidden;
+padding: 20px;
 }
 
 .banner-small{
@@ -117,6 +118,13 @@ p{
 text-align: justify;
 }
 
+.testimonial p {
+font-style: italic;
+text-align:center;
+font-size: 18px;
+; 
+
+}
 .row-centered {
     text-align:center;
 }
@@ -124,7 +132,7 @@ text-align: justify;
     display:inline-block;
     float:none;
     /* reset the text-align */
-    text-align:left;
+    text-align:center;
     /* inline-block space fix */
 
 }
