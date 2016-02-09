@@ -136,3 +136,15 @@ font-size: 18px;
     /* inline-block space fix */
 
 }
+
+.pcmac{
+  width: 50%;
+
+  }
+
+  .pcmac img{
+     width: 50%;
+    margin-left: 75%;
+   
+
+  }
