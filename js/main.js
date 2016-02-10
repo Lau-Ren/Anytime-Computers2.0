@@ -21,6 +21,9 @@ anytimeComputers.config(['$routeProvider', function ($routeProvider) {
     .when("/pricing", {templateUrl: "partials/pricing.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
     .when("/location", {templateUrl: "partials/location.html", controller: "PageCtrl"})
+    .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
+    .when("/testimonials", {templateUrl: "partials/testimonials.html", controller: "PageCtrl"})
+
     // Blog
     // .when("/blog", {templateUrl: "blog.html", controller: "BlogCtrl"})
     // .when("/blog/post", {templateUrl: "blog_item.html", controller: "BlogCtrl"})
